@@ -1,0 +1,99 @@
+.CityFinder {
+	margin: auto;
+	background: #F3FDFF;
+	padding: 30px;
+}
+
+.SearchBar {
+	//width: 1380px;
+	height: 80px;
+	background: #D2E5E9;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.input {
+	width: 1081px;
+	background: #F0FCFF;
+	border-radius: 10px;
+	border: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 37px;
+	padding-left: 20px;
+}
+
+h1 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 37px;
+	text-align: center;
+}
+
+p {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 18px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: white;
+}
+
+.Results {
+	width: 675px;
+	height: 740px;
+	background: #D2E5E9;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.foundStatus {
+	background: rgba(57, 187, 55, 0.63);
+	//height: 60px;
+	display: flex;
+	padding: 20px;
+}
+
+.notFoundStatus {
+	background: rgba(187, 55, 55, 0.63);
+	//height: 60px;
+	display: flex;
+	padding: 20px;
+}
+
+.cities {
+	margin-top: 25px;
+	overflow: auto;
+	height: 550px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	grid-template-rows: auto;
+	grid-template-rows: fit-content(50%);
+}
+
+.cities::-webkit-scrollbar {
+	display: none;
+  }
+
+.cityWrap {
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.city {
+	width: 286px;
+	padding: 20px;
+	height: 50px;
+	background: rgba(22, 28, 41, 0.63);
+	display: flex;
+	justify-content: space-between;
+}
